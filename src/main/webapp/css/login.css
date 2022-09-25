@@ -1,0 +1,20 @@
+body {
+    /*背景图地址*/
+    background-image: url(../images/timg.jpg);
+}
+
+.login-box {
+    position: absolute;
+    top: 200px;
+    right: 190px;
+}
+
+.login-box fieldset {
+    margin: 0px auto;
+    text-align: center;
+    width: 380px;
+}
+
+.info {
+    color: red;
+}

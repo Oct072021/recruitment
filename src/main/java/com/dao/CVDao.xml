@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.CVDao">
+    <insert id="addCV">
+        insert into cv(CVpath, CVname, user_id, com_id)
+        values (#{CVPath}, #{CVName}, #{user_id}, #{com_id})
+    </insert>
+
+    <select id="findCVByCom_id" resultType="com.bean.CV">
+        select *
+        from CV
+        where com_id = #{com_id}
+    </select>
+
+</mapper>

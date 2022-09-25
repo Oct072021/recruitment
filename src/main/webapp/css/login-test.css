@@ -1,0 +1,78 @@
+body {
+    /*背景图地址*/
+    background-image: url(../images/2.png);
+    /*背景图居中*/
+    background-position: center center;
+    /*背景图不平铺*/
+    background-repeat: no-repeat;
+    /*当内容高度大于图片高度时，背景图的位置相对于viewport固定*/
+    background-attachment: fixed;
+    /*背景图基于容器大小伸缩*/
+    background-size: cover;
+}
+
+.login-box {
+    background-color: #00000068;
+    border-radius: 13px;
+    text-align: center;
+    margin: 100px auto;
+    width: 350px;
+    height: 400px;
+}
+
+.login-box h1 {
+    padding-top: 60px;
+    color: #ffffff;
+}
+
+.login-box .input-box {
+    margin-top: 15px;
+}
+
+.login-box .input-box input {
+    border: none;
+    background: none;
+    border-bottom: #ffffff 2px solid;
+    padding: 5px 10px;
+    outline: none;
+    color: #ffffff;
+}
+
+.login-box .input-box select {
+    border: none;
+    background: none;
+    border-bottom: #ffffff 2px solid;
+    padding: 5px 10px;
+    outline: none;
+    color: #ffffff;
+    width: 160px;
+}
+
+.login-box .input-box select option{
+    background-color: #00000068;
+}
+
+.login-box .button {
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    color: #ffffff;
+}
+
+.login-box .button:hover {
+    background: #00a8ff;
+}
+
+.login-box .input-box i {
+    color: #ffffff;
+}
+
+.info{
+    color: red;
+}

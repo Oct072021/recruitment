@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    background: #096efd url(//fecdn2.zhaopin.cn/sou_zhaopin_com/assets/nav_bg.b4e1ef.png) no-repeat 50%;
+}
+
+.header .header-button {
+    height: 60px;
+    width: 60px;
+    font-size: 17px;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.header .header-button:hover {
+    background: rgba(0, 0, 0, .08);
+}
+
+.header .header-img {
+    width: 32px;
+    height: 32px;
+    margin-top: 17px;
+}
+
+.aside {
+    background-color: #d5d9d4;
+}
+
+.aside ul > li {
+    display: block;
+    font-size: 17px;
+    height: 50px;
+}
+
+.aside ul > li > a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    padding: 10px 15px;
+}
+
+.aside ul > li :hover {
+    background: rgba(0, 0, 0, .08);
+}
+
+.main-top {
+    height: 45px;
+}
+
+.main-search {
+    height: 80px;
+}

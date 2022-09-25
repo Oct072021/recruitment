@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.EnterpriseDao">
+    <select id="findEn" resultType="com.bean.Enterprise">
+        select *
+        from sys_enterprise
+        where en_username = #{username}
+          and en_password = #{password}
+    </select>
+
+    <insert id="addEn">
+        insert into sys_enterprise(en_username, en_password)
+        values (#{username}, #{password})
+    </insert>
+
+    <select id="getEnCount" resultType="int">
+        select count(*) from sys_enterprise
+    </select>
+</mapper>
